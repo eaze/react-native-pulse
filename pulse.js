@@ -1,6 +1,5 @@
 import React, {
-  Component,
-  PropTypes
+  Component
 } from 'react';
 import {
   View,
@@ -8,6 +7,7 @@ import {
   Image,
   StyleSheet,
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
     container: {
